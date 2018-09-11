@@ -6,6 +6,11 @@ a package manager
 for the [Sublime Text](http://sublimetext.com/) text editor.
 
 
+# TODO 
+- ~~Compile psutil 5.4.1 with Python 3.3 for Window platform~~
+- ~~Compile psutil 5.4.6 libs for Linux x86 platform~~
+
+
 ## How to use *psutil* as a dependency
 
 In order to tell Package Control
@@ -18,7 +23,7 @@ with the following contents:
 ```js
 {
    "*": {
-      "*": [
+      ">=3000": [
          "psutil"
       ]
    }
